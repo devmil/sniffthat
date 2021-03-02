@@ -1,0 +1,475 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.Common", "SniffThat\LameSoft.SniffThat.Common\LameSoft.SniffThat.Common.csproj", "{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.GpsInfoVisualModule", "SniffThat\Plugins\LameSoft.SniffThat.GpsInfoVisualModule\LameSoft.SniffThat.GpsInfoVisualModule.csproj", "{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.GpsVisualModule", "SniffThat\Plugins\LameSoft.SniffThat.GpsVisualModule\LameSoft.SniffThat.GpsVisualModule.csproj", "{E72FBFDD-37D8-4031-B161-44E793DBA268}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.ListVisualModule", "SniffThat\Plugins\LameSoft.SniffThat.ListVisualModule\LameSoft.SniffThat.ListVisualModule.csproj", "{7AB5B675-2910-4C80-ACE5-1373F00D09BD}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.XMLExportModule", "SniffThat\Plugins\LameSoft.SniffThat.XMLExportModule\LameSoft.SniffThat.XMLExportModule.csproj", "{15948D57-3833-4A01-85DE-DB5106155C80}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat", "SniffThat\LameSoft.SniffThat\LameSoft.SniffThat.csproj", "{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "SniffThat Setup", "SniffThat\CabSetup\CabSetup.vddproj", "{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.RadarVisualModule", "SniffThat\Plugins\LameSoft.SniffThat.RadarVisualModule\LameSoft.SniffThat.RadarVisualModule.csproj", "{1704FE3B-5ED6-4B10-8245-02076AD3F22E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.OV2ExportModule", "SniffThat\Plugins\LameSoft.SniffThat.OV2ExportModule\LameSoft.SniffThat.OV2ExportModule.csproj", "{83B29E39-D938-444C-BE71-07497BFCD5C4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.Gps", "Lamesoft.Mobile\LameSoft.Mobile.Gps\LameSoft.Mobile.Gps.csproj", "{86518116-4BE1-4971-8C9A-2FBA8C39A012}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.Utils", "LameSoft.Mobile\LameSoft.Mobile.Utils\LameSoft.Mobile.Utils.csproj", "{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.WirelessLan", "LameSoft.Mobile\LameSoft.Mobile.WirelessLan\LameSoft.Mobile.WirelessLan.csproj", "{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.GpsInfoResolver", "LameSoft.Mobile\LameSoft.Mobile.GpsInfoResolver\LameSoft.Mobile.GpsInfoResolver.csproj", "{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution_Items", "Solution_Items", "{B4012F90-1729-45CD-9A53-7278173DF999}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Empty.xml = Empty.xml
+		SniffThat\CabSetup\Release\Setup.ini = SniffThat\CabSetup\Release\Setup.ini
+		Setup.nsi = Setup.nsi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CabSetup", "CabSetup", "{DF0D0690-FE97-4A4D-A84A-9E8AF1BC35AD}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{ADF187B3-E6B9-41B0-9CD3-D40AB5A54D67}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		SniffThat\CabSetup\Release\Setup.ini = SniffThat\CabSetup\Release\Setup.ini
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{FE5E7E83-F14D-4D21-BFB7-9FC15912DD63}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		SniffThat\Images\SniffThat.ico = SniffThat\Images\SniffThat.ico
+		SniffThat\Images\sniffthat.jpg = SniffThat\Images\sniffthat.jpg
+		SniffThat\Images\sniffthat_org.jpg = SniffThat\Images\sniffthat_org.jpg
+		SniffThat\Images\SniffThat_Org_Transparent.bmp = SniffThat\Images\SniffThat_Org_Transparent.bmp
+		SniffThat\Images\SniffThatInstall.bmp = SniffThat\Images\SniffThatInstall.bmp
+		SniffThat\Images\splash_animated.gif = SniffThat\Images\splash_animated.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Splash Animation", "Splash Animation", "{2E3C26C9-FF76-4793-89AA-01B00E26F13A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		SniffThat\Images\Splash Animation\1.gif = SniffThat\Images\Splash Animation\1.gif
+		SniffThat\Images\Splash Animation\2.gif = SniffThat\Images\Splash Animation\2.gif
+		SniffThat\Images\Splash Animation\3.gif = SniffThat\Images\Splash Animation\3.gif
+		SniffThat\Images\Splash Animation\4.gif = SniffThat\Images\Splash Animation\4.gif
+		SniffThat\Images\Splash Animation\5.gif = SniffThat\Images\Splash Animation\5.gif
+		SniffThat\Images\Splash Animation\6.gif = SniffThat\Images\Splash Animation\6.gif
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.Core", "SniffThat\LameSoft.SniffThat.Core\LameSoft.SniffThat.Core.csproj", "{BAC4D88F-4144-452B-A741-57B95D4614D4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.KmlExportModule", "SniffThat\Plugins\LameSoft.SniffThat.KmlExportModule\LameSoft.SniffThat.KmlExportModule.csproj", "{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SniffThat", "SniffThat", "{D410DE3D-EB7D-4D97-9131-DB65BD227C8E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetCF", "DotNetCF", "{406569EC-083A-4064-8AF2-2DBCF4A3D712}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		SniffThat\InstallerFiles\DotNetCF\DotNetCF.ini = SniffThat\InstallerFiles\DotNetCF\DotNetCF.ini
+		SniffThat\InstallerFiles\DotNetCF\DotNetCF.ini.bak = SniffThat\InstallerFiles\DotNetCF\DotNetCF.ini.bak
+		SniffThat\InstallerFiles\DotNetCF\NETCFv2.ppc.armv4.cab = SniffThat\InstallerFiles\DotNetCF\NETCFv2.ppc.armv4.cab
+		SniffThat\InstallerFiles\DotNetCF\NETCFv2.wce5.armv4i.cab = SniffThat\InstallerFiles\DotNetCF\NETCFv2.wce5.armv4i.cab
+		SniffThat\InstallerFiles\DotNetCF\NETCFv2.wm.armv4i.cab = SniffThat\InstallerFiles\DotNetCF\NETCFv2.wm.armv4i.cab
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InstallerFiles", "InstallerFiles", "{33DB3ED8-3698-4A04-86CC-CEBEF886A17D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		SniffThat\InstallerFiles\Germany.ogm = SniffThat\InstallerFiles\Germany.ogm
+		SniffThat\InstallerFiles\lgpl.txt = SniffThat\InstallerFiles\lgpl.txt
+		SniffThat\InstallerFiles\lgplEULA_Ger.txt = SniffThat\InstallerFiles\lgplEULA_Ger.txt
+		SniffThat\InstallerFiles\lgplEULA_Ger.txt.bak = SniffThat\InstallerFiles\lgplEULA_Ger.txt.bak
+		SniffThat\InstallerFiles\msSharedSource.txt = SniffThat\InstallerFiles\msSharedSource.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LameSoft.Mobile", "LameSoft.Mobile", "{B040937F-399E-428F-8881-ABC600FD8B22}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{E23E2EDB-2D2C-4258-A607-60BC34C6DA80}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		LameSoft.Mobile\Source\LameSoft.Wizard.dll = LameSoft.Mobile\Source\LameSoft.Wizard.dll
+		LameSoft.Mobile\Source\LameSoft.XMLSettings.dll = LameSoft.Mobile\Source\LameSoft.XMLSettings.dll
+		LameSoft.Mobile\Source\LameSoft.XMLSettings.XML = LameSoft.Mobile\Source\LameSoft.XMLSettings.XML
+		LameSoft.Mobile\Source\MySql.Data.dll = LameSoft.Mobile\Source\MySql.Data.dll
+		LameSoft.Mobile\Source\MySql.Data.xml = LameSoft.Mobile\Source\MySql.Data.xml
+		LameSoft.Mobile\Source\System.Data.SQLite.dll = LameSoft.Mobile\Source\System.Data.SQLite.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompactFramework", "CompactFramework", "{23C335C4-8C20-43FD-8DBC-2B2F68215DE8}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		LameSoft.Mobile\Source\CompactFramework\System.Data.SQLite.dll = LameSoft.Mobile\Source\CompactFramework\System.Data.SQLite.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDF 2.0", "SDF 2.0", "{ABC6CCE3-CF8B-4959-BC30-AA2F9B820F10}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Configuration.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Configuration.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Configuration.xml = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Configuration.xml
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Data.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Data.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Data.xml = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Data.xml
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Drawing.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Drawing.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Drawing.xml = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Drawing.xml
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.ico = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.ico
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Net.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Net.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Net.xml = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Net.xml
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Phone.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Phone.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Phone.XML = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Phone.XML
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Rss.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Rss.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Rss.XML = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Rss.XML
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.VisualBasic.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.VisualBasic.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.VisualBasic.xml = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.VisualBasic.xml
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Web.Services2.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Web.Services2.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Web.Services2.XML = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Web.Services2.XML
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.PocketPC.asmmeta.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.PocketPC.asmmeta.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.Smartphone.asmmeta.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.Smartphone.asmmeta.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.WindowsCE.asmmeta.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.WindowsCE.asmmeta.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.XML = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Windows.Forms.XML
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsCE.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsCE.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsCE.XML = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsCE.XML
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.PocketPC.asmmeta.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.PocketPC.asmmeta.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.Smartphone.asmmeta.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.Smartphone.asmmeta.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.WindowsCE.asmmeta.dll = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.WindowsCE.asmmeta.dll
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.XML = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.WindowsMobile.XML
+		LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.xml = LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite Win32", "SQLite Win32", "{731A9CCE-50FD-4A38-9CC6-D2EFFC7050CA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		LameSoft.Mobile\Source\SQLite Win32\System.Data.SQLite.DLL = LameSoft.Mobile\Source\SQLite Win32\System.Data.SQLite.DLL
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.SniffThat.WLanGraphVisualPlugin", "SniffThat\Plugins\LameSoft.SniffThat.WLanGraphVisualPlugin\LameSoft.SniffThat.WLanGraphVisualPlugin.csproj", "{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs01.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SniffThat\\LameSoft.SniffThat.Common\\LameSoft.SniffThat.Common.csproj
+		SccProjectName1 = SniffThat/LameSoft.SniffThat.Common
+		SccLocalPath1 = SniffThat\\LameSoft.SniffThat.Common
+		SccProjectUniqueName2 = SniffThat\\Plugins\\LameSoft.SniffThat.GpsInfoVisualModule\\LameSoft.SniffThat.GpsInfoVisualModule.csproj
+		SccProjectName2 = SniffThat/Plugins/LameSoft.SniffThat.GpsInfoVisualModule
+		SccLocalPath2 = SniffThat\\Plugins\\LameSoft.SniffThat.GpsInfoVisualModule
+		SccProjectUniqueName3 = SniffThat\\Plugins\\LameSoft.SniffThat.GpsVisualModule\\LameSoft.SniffThat.GpsVisualModule.csproj
+		SccProjectName3 = SniffThat/Plugins/LameSoft.SniffThat.GpsVisualModule
+		SccLocalPath3 = SniffThat\\Plugins\\LameSoft.SniffThat.GpsVisualModule
+		SccProjectUniqueName4 = SniffThat\\Plugins\\LameSoft.SniffThat.ListVisualModule\\LameSoft.SniffThat.ListVisualModule.csproj
+		SccProjectName4 = SniffThat/Plugins/LameSoft.SniffThat.ListVisualModule
+		SccLocalPath4 = SniffThat\\Plugins\\LameSoft.SniffThat.ListVisualModule
+		SccProjectUniqueName5 = SniffThat\\Plugins\\LameSoft.SniffThat.XMLExportModule\\LameSoft.SniffThat.XMLExportModule.csproj
+		SccProjectName5 = SniffThat/Plugins/LameSoft.SniffThat.XMLExportModule
+		SccLocalPath5 = SniffThat\\Plugins\\LameSoft.SniffThat.XMLExportModule
+		SccProjectUniqueName6 = SniffThat\\LameSoft.SniffThat\\LameSoft.SniffThat.csproj
+		SccProjectName6 = SniffThat/LameSoft.SniffThat
+		SccLocalPath6 = SniffThat\\LameSoft.SniffThat
+		SccProjectUniqueName7 = SniffThat\\CabSetup\\CabSetup.vddproj
+		SccProjectName7 = SniffThat/CabSetup
+		SccLocalPath7 = SniffThat\\CabSetup
+		SccProjectUniqueName8 = SniffThat\\Plugins\\LameSoft.SniffThat.RadarVisualModule\\LameSoft.SniffThat.RadarVisualModule.csproj
+		SccProjectName8 = SniffThat/Plugins/LameSoft.SniffThat.RadarVisualModule
+		SccLocalPath8 = SniffThat\\Plugins\\LameSoft.SniffThat.RadarVisualModule
+		SccProjectUniqueName9 = SniffThat\\Plugins\\LameSoft.SniffThat.OV2ExportModule\\LameSoft.SniffThat.OV2ExportModule.csproj
+		SccProjectName9 = SniffThat/Plugins/LameSoft.SniffThat.OV2ExportModule
+		SccLocalPath9 = SniffThat\\Plugins\\LameSoft.SniffThat.OV2ExportModule
+		SccProjectUniqueName10 = Lamesoft.Mobile\\LameSoft.Mobile.Gps\\LameSoft.Mobile.Gps.csproj
+		SccProjectName10 = Lamesoft.Mobile/LameSoft.Mobile.Gps
+		SccLocalPath10 = Lamesoft.Mobile\\LameSoft.Mobile.Gps
+		SccProjectUniqueName11 = LameSoft.Mobile\\LameSoft.Mobile.Utils\\LameSoft.Mobile.Utils.csproj
+		SccProjectName11 = LameSoft.Mobile/LameSoft.Mobile.Utils
+		SccLocalPath11 = LameSoft.Mobile\\LameSoft.Mobile.Utils
+		SccProjectUniqueName12 = LameSoft.Mobile\\LameSoft.Mobile.WirelessLan\\LameSoft.Mobile.WirelessLan.csproj
+		SccProjectName12 = LameSoft.Mobile/LameSoft.Mobile.WirelessLan
+		SccLocalPath12 = LameSoft.Mobile\\LameSoft.Mobile.WirelessLan
+		SccProjectUniqueName13 = LameSoft.Mobile\\LameSoft.Mobile.GpsInfoResolver\\LameSoft.Mobile.GpsInfoResolver.csproj
+		SccProjectName13 = LameSoft.Mobile/LameSoft.Mobile.GpsInfoResolver
+		SccLocalPath13 = LameSoft.Mobile\\LameSoft.Mobile.GpsInfoResolver
+		SccProjectUniqueName14 = SniffThat\\LameSoft.SniffThat.Core\\LameSoft.SniffThat.Core.csproj
+		SccProjectName14 = SniffThat/LameSoft.SniffThat.Core
+		SccLocalPath14 = SniffThat\\LameSoft.SniffThat.Core
+		SccProjectUniqueName15 = SniffThat\\Plugins\\LameSoft.SniffThat.KmlExportModule\\LameSoft.SniffThat.KmlExportModule.csproj
+		SccProjectName15 = SniffThat/Plugins/LameSoft.SniffThat.KmlExportModule
+		SccLocalPath15 = SniffThat\\Plugins\\LameSoft.SniffThat.KmlExportModule
+		SccProjectUniqueName16 = SniffThat\\Plugins\\LameSoft.SniffThat.WLanGraphVisualPlugin\\LameSoft.SniffThat.WLanGraphVisualPlugin.csproj
+		SccProjectName16 = SniffThat/Plugins/LameSoft.SniffThat.WLanGraphVisualPlugin
+		SccLocalPath16 = SniffThat\\Plugins\\LameSoft.SniffThat.WLanGraphVisualPlugin
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		NDoc|Any CPU = NDoc|Any CPU
+		Release|Any CPU = Release|Any CPU
+		WindowsOnly|Any CPU = WindowsOnly|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{E72FBFDD-37D8-4031-B161-44E793DBA268}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB5B675-2910-4C80-ACE5-1373F00D09BD}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{15948D57-3833-4A01-85DE-DB5106155C80}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.NDoc|Any CPU.Deploy.0 = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}.WindowsOnly|Any CPU.Deploy.0 = Release|Any CPU
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.Debug|Any CPU.ActiveCfg = Debug
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.Debug|Any CPU.Build.0 = Debug
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.NDoc|Any CPU.ActiveCfg = Release
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.NDoc|Any CPU.Build.0 = Release
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.Release|Any CPU.ActiveCfg = Release
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.Release|Any CPU.Build.0 = Release
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.WindowsOnly|Any CPU.ActiveCfg = Release
+		{CD0465F9-9FC3-4351-87E5-75D4A9B800F2}.WindowsOnly|Any CPU.Build.0 = Release
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{1704FE3B-5ED6-4B10-8245-02076AD3F22E}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{83B29E39-D938-444C-BE71-07497BFCD5C4}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC4D88F-4144-452B-A741-57B95D4614D4}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.WindowsOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}.WindowsOnly|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D410DE3D-EB7D-4D97-9131-DB65BD227C8E} = {B4012F90-1729-45CD-9A53-7278173DF999}
+		{B040937F-399E-428F-8881-ABC600FD8B22} = {B4012F90-1729-45CD-9A53-7278173DF999}
+		{DF0D0690-FE97-4A4D-A84A-9E8AF1BC35AD} = {D410DE3D-EB7D-4D97-9131-DB65BD227C8E}
+		{FE5E7E83-F14D-4D21-BFB7-9FC15912DD63} = {D410DE3D-EB7D-4D97-9131-DB65BD227C8E}
+		{33DB3ED8-3698-4A04-86CC-CEBEF886A17D} = {D410DE3D-EB7D-4D97-9131-DB65BD227C8E}
+		{ADF187B3-E6B9-41B0-9CD3-D40AB5A54D67} = {DF0D0690-FE97-4A4D-A84A-9E8AF1BC35AD}
+		{2E3C26C9-FF76-4793-89AA-01B00E26F13A} = {FE5E7E83-F14D-4D21-BFB7-9FC15912DD63}
+		{406569EC-083A-4064-8AF2-2DBCF4A3D712} = {33DB3ED8-3698-4A04-86CC-CEBEF886A17D}
+		{E23E2EDB-2D2C-4258-A607-60BC34C6DA80} = {B040937F-399E-428F-8881-ABC600FD8B22}
+		{23C335C4-8C20-43FD-8DBC-2B2F68215DE8} = {E23E2EDB-2D2C-4258-A607-60BC34C6DA80}
+		{ABC6CCE3-CF8B-4959-BC30-AA2F9B820F10} = {E23E2EDB-2D2C-4258-A607-60BC34C6DA80}
+		{731A9CCE-50FD-4A38-9CC6-D2EFFC7050CA} = {E23E2EDB-2D2C-4258-A607-60BC34C6DA80}
+	EndGlobalSection
+EndGlobal

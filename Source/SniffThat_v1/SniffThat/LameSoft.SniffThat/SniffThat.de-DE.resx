@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="bPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="bStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="cbOnlyNotProtected" xml:space="preserve">
+    <value>Nur nicht Verschlüsselte</value>
+  </data>
+  <data name="cbOnlyVisible" xml:space="preserve">
+    <value>Nur zur Zeit Sichtbare</value>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>Fehler beim Exportieren</value>
+  </data>
+  <data name="ExportMessage" xml:space="preserve">
+    <value>Export Meldung</value>
+  </data>
+  <data name="GpsCloseError" xml:space="preserve">
+    <value>Fehler beim Beenden des Gps</value>
+  </data>
+  <data name="GpsInfoDBVersion" xml:space="preserve">
+    <value>Gps Info Datenbank Version</value>
+  </data>
+  <data name="GpsOpenError" xml:space="preserve">
+    <value>Fehler beim Aktivieren des Gps</value>
+  </data>
+  <data name="GpsState" xml:space="preserve">
+    <value>Gps Status</value>
+  </data>
+  <data name="GpsStopped" xml:space="preserve">
+    <value>Gps beendet</value>
+  </data>
+  <data name="IllegalDBFile" xml:space="preserve">
+    <value>Ungültige Datenbankdatei angegeben</value>
+  </data>
+  <data name="InitPlugins" xml:space="preserve">
+    <value>Initialisiere Plugins</value>
+  </data>
+  <data name="lExportTo" xml:space="preserve">
+    <value>Exportart</value>
+  </data>
+  <data name="lFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="lGpsBaud" xml:space="preserve">
+    <value>Gps Baud</value>
+  </data>
+  <data name="lGpsComPort" xml:space="preserve">
+    <value>Gps Com Port</value>
+  </data>
+  <data name="lGpsInfoFile" xml:space="preserve">
+    <value>Gps Info Datei</value>
+  </data>
+  <data name="ListLoadError" xml:space="preserve">
+    <value>Fehler beim Laden der Liste</value>
+  </data>
+  <data name="ListLoadErrorHead" xml:space="preserve">
+    <value>Fehler beim Laden der Liste</value>
+  </data>
+  <data name="ListSaveError" xml:space="preserve">
+    <value>Fehler beim Speichern der Liste</value>
+  </data>
+  <data name="ListSaveErrorHead" xml:space="preserve">
+    <value>Fehler beim Speichern der Liste</value>
+  </data>
+  <data name="lMaxGpsRadius" xml:space="preserve">
+    <value>Max. Gps Info Radius</value>
+  </data>
+  <data name="LoadSettings" xml:space="preserve">
+    <value>Lade Einstellungen</value>
+  </data>
+  <data name="lScanInterval" xml:space="preserve">
+    <value>Scan Intervall (ms)</value>
+  </data>
+  <data name="lWLanAdapter" xml:space="preserve">
+    <value>WLan Adapter</value>
+  </data>
+  <data name="miAccessPoints" xml:space="preserve">
+    <value>Access Points</value>
+  </data>
+  <data name="miCancelExport" xml:space="preserve">
+    <value>Abbruch</value>
+  </data>
+  <data name="miCancelSettings" xml:space="preserve">
+    <value>Abbruch</value>
+  </data>
+  <data name="miClear" xml:space="preserve">
+    <value>Leeren</value>
+  </data>
+  <data name="miExit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="miExport" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="miGps" xml:space="preserve">
+    <value>Gps</value>
+  </data>
+  <data name="miLoad" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="miMenu" xml:space="preserve">
+    <value>Menü</value>
+  </data>
+  <data name="miMerge" xml:space="preserve">
+    <value>Zusammenführen</value>
+  </data>
+  <data name="miRefreshGpsInfo" xml:space="preserve">
+    <value>Gps Info aktualisieren</value>
+  </data>
+  <data name="miSave" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="miSaveSettings" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="miScan" xml:space="preserve">
+    <value>Scannen</value>
+  </data>
+  <data name="miSettings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="miStartExport" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="miVisuals" xml:space="preserve">
+    <value>Ansichten</value>
+  </data>
+  <data name="ModuleAddError" xml:space="preserve">
+    <value>Fehler beim Hinzufügen des Moduls</value>
+  </data>
+  <data name="NodeExport" xml:space="preserve">
+    <value>Export Module</value>
+  </data>
+  <data name="NodeVisual" xml:space="preserve">
+    <value>Visuelle Module</value>
+  </data>
+  <data name="NoExportModules" xml:space="preserve">
+    <value>Keine aktiven Export Module gefunden</value>
+  </data>
+  <data name="OpenWLanSound" xml:space="preserve">
+    <value>Sound bei offenen WLans abspielen</value>
+  </data>
+  <data name="SearchPlugins" xml:space="preserve">
+    <value>Suche Plugins</value>
+  </data>
+  <data name="SoundFile" xml:space="preserve">
+    <value>Sound Datei:</value>
+  </data>
+  <data name="StartApplication" xml:space="preserve">
+    <value>Starte Anwendung</value>
+  </data>
+  <data name="tpAbout" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="tpGps" xml:space="preserve">
+    <value>Gps</value>
+  </data>
+  <data name="tpModules" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="tpWireless" xml:space="preserve">
+    <value>Drahtlos</value>
+  </data>
+  <data name="VisualError" xml:space="preserve">
+    <value>Fehler während der Visualisierung</value>
+  </data>
+  <data name="VisualMessage" xml:space="preserve">
+    <value>Visualisierungs Meldung</value>
+  </data>
+  <data name="WirelessAdapterNotFoundError" xml:space="preserve">
+    <value>WLan Karte nicht gefunden!
+Prüfen Sie die Einstellungen oder versuchen Sie die WLan Karte erneut zu aktivieren.</value>
+  </data>
+  <data name="WirelessAdapterNotFoundErrorHead" xml:space="preserve">
+    <value>Fehler beim WLan Scannen</value>
+  </data>
+</root>

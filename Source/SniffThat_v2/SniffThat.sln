@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.Gps", "LameSoft.Mobile\LameSoft.Mobile.Gps\LameSoft.Mobile.Gps.csproj", "{86518116-4BE1-4971-8C9A-2FBA8C39A012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.GpsInfoResolver", "LameSoft.Mobile\LameSoft.Mobile.GpsInfoResolver\LameSoft.Mobile.GpsInfoResolver.csproj", "{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.Utils", "LameSoft.Mobile\LameSoft.Mobile.Utils\LameSoft.Mobile.Utils.csproj", "{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LameSoft.Mobile.WirelessLan", "LameSoft.Mobile\LameSoft.Mobile.WirelessLan\LameSoft.Mobile.WirelessLan.csproj", "{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86518116-4BE1-4971-8C9A-2FBA8C39A012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC897B9-CF9B-4513-8FCB-0396C4F20A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

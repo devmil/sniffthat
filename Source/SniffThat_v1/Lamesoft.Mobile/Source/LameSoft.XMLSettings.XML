@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LameSoft.XMLSettings</name>
+    </assembly>
+    <members>
+        <member name="T:LameSoft.XMLSettings.SettingsProperty`1">
+            <summary>
+            Settings Property Class. Grants typesave Access to a XMLSettings instance
+            </summary>
+        </member>
+        <member name="F:LameSoft.XMLSettings.SettingsProperty`1._Owner">
+            <summary>
+            Owner Settings instance
+            </summary>
+        </member>
+        <member name="M:LameSoft.XMLSettings.SettingsProperty`1.#ctor(LameSoft.XMLSettings.Settings)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="owner">owning XMLSettings</param>
+        </member>
+        <member name="M:LameSoft.XMLSettings.SettingsProperty`1.Parse(System.String)">
+            <summary>
+            Parses a value using the special Parse Method of the generic type
+            </summary>
+            <param name="value">value to parse</param>
+            <returns>the parsed value or the types default value if the type isn't registered</returns>
+        </member>
+        <member name="P:LameSoft.XMLSettings.SettingsProperty`1.Item(System.String)">
+            <summary>
+            Indexer Acces
+            </summary>
+            <param name="index">Key for the Setting</param>
+            <returns>The Content of the setting converted into the correct format</returns>
+        </member>
+        <member name="T:LameSoft.XMLSettings.SettingsEntry">
+            <summary>
+            Represents an Entry in the Settings List
+            </summary>
+        </member>
+        <member name="M:LameSoft.XMLSettings.SettingsEntry.#ctor(System.String,System.String)">
+            <summary>
+            Value Constructor
+            </summary>
+            <param name="key">Key</param>
+            <param name="value">Values</param>
+        </member>
+        <member name="P:LameSoft.XMLSettings.SettingsEntry.Key">
+            <summary>
+            Key
+            </summary>
+        </member>
+        <member name="P:LameSoft.XMLSettings.SettingsEntry.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="T:LameSoft.XMLSettings.Settings">
+            <summary>
+            XML Settings class
+            </summary>
+        </member>
+        <member name="F:LameSoft.XMLSettings.Settings._Settings">
+            <summary>
+            Internal Storage for the Settings Entries
+            </summary>
+        </member>
+        <member name="F:LameSoft.XMLSettings.Settings._FileName">
+            <summary>
+            Filename for the Settings File
+            </summary>
+        </member>
+        <member name="M:LameSoft.XMLSettings.Settings.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="filename">Filename to read and save the Settings from / to</param>
+        </member>
+        <member name="M:LameSoft.XMLSettings.Settings.ReadSettings">
+            <summary>
+            Reads the Settings from the file
+            </summary>
+        </member>
+        <member name="M:LameSoft.XMLSettings.Settings.WriteSettings">
+            <summary>
+            Writes the Settings into the file
+            </summary>
+        </member>
+        <member name="P:LameSoft.XMLSettings.Settings.Item(System.String)">
+            <summary>
+            Gets or Sets the Setting with the given index (String Access)
+            </summary>
+        </member>
+        <member name="P:LameSoft.XMLSettings.Settings.Integer">
+            <summary>
+            Accesses the Settings as an Integer
+            </summary>
+        </member>
+        <member name="P:LameSoft.XMLSettings.Settings.Double">
+            <summary>
+            Accesses the Settings as a Double
+            </summary>
+        </member>
+        <member name="P:LameSoft.XMLSettings.Settings.Boolean">
+            <summary>
+            Accesses the Settings as a Boolean
+            </summary>
+        </member>
+    </members>
+</doc>

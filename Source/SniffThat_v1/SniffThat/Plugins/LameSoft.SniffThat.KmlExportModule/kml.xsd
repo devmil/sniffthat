@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  © Copyright 2005, TJ. All rights reserved.
+  Free for personal use. Commercial use requires a license.
+  Created by KMLSchema.php as part of the PHP KML validator
+  Schemas are also available. (see http://kml.tjworld.net/)
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://earth.google.com/kml/2.0" xmlns:kml="http://earth.google.com/kml/2.0">
+  <xs:simpleType name="URI">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="address">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="adsEnable">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="adwords">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="altitudeMode">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="antialias">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BalloonStyle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:text"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="begin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:TimeInstant"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Channel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:adwords"/>
+        <xs:element minOccurs="0" ref="kml:adsEnable"/>
+        <xs:element minOccurs="0" ref="kml:description"/>
+        <xs:element minOccurs="0" ref="kml:layerIndex"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:preserveTextLevel"/>
+        <xs:element minOccurs="0" ref="kml:showState"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="color">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="colorMode">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ColorStyle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:antialias"/>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:colorMode"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cookie">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coordinates">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Channel"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Document"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Folder"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:GroundOverlay"/>
+        <xs:element minOccurs="0" ref="kml:LookAt"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:NetworkLink"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Placemark"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Schema"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:ScreenOverlay"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Search"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Style"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:StyleBlinker"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:StyleMap"/>
+        <xs:element minOccurs="0" ref="kml:description"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:visibility"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="drawOrder">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="duration">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="east">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="end">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:TimeInstant"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="extrude">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fill">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flyToView">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Folder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Channel"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Folder"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:GroundOverlay"/>
+        <xs:element minOccurs="0" ref="kml:LookAt"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:NetworkLink"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Placemark"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:ScreenOverlay"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Search"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Style"/>
+        <xs:element minOccurs="0" ref="kml:description"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:open"/>
+        <xs:element minOccurs="0" ref="kml:visibility"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="geomColor">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GeometryCollection">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="geomScale">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GroundOverlay">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:Icon"/>
+        <xs:element maxOccurs="unbounded" ref="kml:LatLonBox"/>
+        <xs:element minOccurs="0" ref="kml:LookAt"/>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:drawOrder"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:opacity"/>
+        <xs:element minOccurs="0" ref="kml:rotation"/>
+        <xs:element minOccurs="0" ref="kml:texMat"/>
+        <xs:element minOccurs="0" ref="kml:visibility"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="h">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="heading">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="href">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Icon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:href"/>
+        <xs:element minOccurs="0" ref="kml:h"/>
+        <xs:element minOccurs="0" ref="kml:refreshMode"/>
+        <xs:element minOccurs="0" ref="kml:refreshInterval"/>
+        <xs:element minOccurs="0" ref="kml:viewFormat"/>
+        <xs:element minOccurs="0" ref="kml:viewRefreshMode"/>
+        <xs:element minOccurs="0" ref="kml:viewBoundScale"/>
+        <xs:element minOccurs="0" ref="kml:w"/>
+        <xs:element minOccurs="0" ref="kml:x"/>
+        <xs:element minOccurs="0" ref="kml:y"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IconStyle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Icon"/>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:colorMode"/>
+        <xs:element minOccurs="0" ref="kml:heading"/>
+        <xs:element minOccurs="0" ref="kml:scale"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImageLink">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:h"/>
+        <xs:element minOccurs="0" ref="kml:w"/>
+        <xs:element minOccurs="0" ref="kml:x"/>
+        <xs:element minOccurs="0" ref="kml:y"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="innerBoundaryIs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:LinearRing"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="key">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="kml:Channel"/>
+          <xs:element ref="kml:Document"/>
+          <xs:element ref="kml:Folder"/>
+          <xs:element ref="kml:GroundOverlay"/>
+          <xs:element ref="kml:LookAt"/>
+          <xs:element ref="kml:NetworkLink"/>
+          <xs:element ref="kml:Placemark"/>
+          <xs:element ref="kml:Search"/>
+          <xs:element ref="kml:ScreenOverlay"/>
+        </xs:choice>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:NetworkLinkControl"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="labelColor">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="labelPlacement">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LabelStyle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:colorMode"/>
+        <xs:element minOccurs="0" ref="kml:scale"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="latitude">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LatLonBox">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:east"/>
+        <xs:element maxOccurs="unbounded" ref="kml:north"/>
+        <xs:element maxOccurs="unbounded" ref="kml:south"/>
+        <xs:element maxOccurs="unbounded" ref="kml:west"/>
+        <xs:element minOccurs="0" ref="kml:rotation"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LatLonXform">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:rotation"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layerIndex">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LinearRing">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:coordinates"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LineString">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:coordinates"/>
+        <xs:element minOccurs="0" ref="kml:altitudeMode"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+        <xs:element minOccurs="0" ref="kml:tessellate"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LineStyle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:colorMode"/>
+        <xs:element minOccurs="0" ref="kml:width"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="linkName">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="linkDescription">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="linkSnippet">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Link">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:description"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+        <xs:element minOccurs="0" ref="kml:refreshCounter"/>
+        <xs:element minOccurs="0" ref="kml:refreshInterval"/>
+        <xs:element minOccurs="0" ref="kml:refreshMode"/>
+        <xs:element minOccurs="0" ref="kml:refreshPeriod"/>
+        <xs:element minOccurs="0" ref="kml:Url"/>
+        <xs:element minOccurs="0" ref="kml:viewFormat"/>
+        <xs:element minOccurs="0" ref="kml:viewRefreshMode"/>
+        <xs:element minOccurs="0" ref="kml:viewRefreshTime"/>
+        <xs:element minOccurs="0" ref="kml:viewBoundScale"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="longitude">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LookAt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:heading"/>
+        <xs:element maxOccurs="unbounded" ref="kml:latitude"/>
+        <xs:element maxOccurs="unbounded" ref="kml:longitude"/>
+        <xs:element maxOccurs="unbounded" ref="kml:range"/>
+        <xs:element minOccurs="0" ref="kml:tilt"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="message">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="minRefreshPeriod">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiGeometry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:altitudeMode"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+        <xs:element minOccurs="0" ref="kml:tessellate"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:LinearRing"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:LineString"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiGeometry"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiLineString"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiPoint"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiPolygon"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Point"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Polygon"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiLineString">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:LineString"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiPoint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:Point"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiPolygon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:Polygon"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetworkLink">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:Url"/>
+        <xs:element minOccurs="0" ref="kml:flyToView"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:refreshVisibility"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+        <xs:element minOccurs="0" ref="kml:visibility"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetworkLinkControl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:cookie"/>
+        <xs:element minOccurs="0" ref="kml:linkName"/>
+        <xs:element minOccurs="0" ref="kml:linkDescription"/>
+        <xs:element minOccurs="0" ref="kml:linkSnippet"/>
+        <xs:element minOccurs="0" ref="kml:message"/>
+        <xs:element minOccurs="0" ref="kml:minRefreshPeriod"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="north">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numCycles">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjArrayField">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:type"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjField">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:type"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="opacity">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="open">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="outerBoundaryIs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:LinearRing"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="outline">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="overlayXY">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="x" use="required"/>
+      <xs:attribute name="y" use="required"/>
+      <xs:attribute name="xunits" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="pixels"/>
+            <xs:enumeration value="insetPixels"/>
+            <xs:enumeration value="fraction"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="yunits" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="pixels"/>
+            <xs:enumeration value="insetPixels"/>
+            <xs:enumeration value="fraction"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parent">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pair">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:key"/>
+        <xs:element maxOccurs="unbounded" ref="kml:styleUrl"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Placemark">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:GeometryCollection"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:LineString"/>
+        <xs:element minOccurs="0" ref="kml:LookAt"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiGeometry"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiLineString"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiPoint"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:MultiPolygon"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Point"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Polygon"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Style"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:TimePeriod"/>
+        <xs:element minOccurs="0" ref="kml:address"/>
+        <xs:element minOccurs="0" ref="kml:description"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:open"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+        <xs:element minOccurs="0" ref="kml:styleUrl"/>
+        <xs:element minOccurs="0" ref="kml:visibility"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Point">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:coordinates"/>
+        <xs:element minOccurs="0" ref="kml:altitudeMode"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Polygon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:innerBoundaryIs"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:LinearRing"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:outerBoundaryIs"/>
+        <xs:element minOccurs="0" ref="kml:altitudeMode"/>
+        <xs:element minOccurs="0" ref="kml:extrude"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PolyStyle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:color"/>
+        <xs:element minOccurs="0" ref="kml:colorMode"/>
+        <xs:element minOccurs="0" ref="kml:fill"/>
+        <xs:element minOccurs="0" ref="kml:outline"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="preserveTextLevel">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="queryString">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="range">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refreshCounter">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refreshInterval">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refreshMode">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refreshPeriod">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refreshVisibility">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rotation">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rotationXY">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="scale">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Schema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:ObjArrayField"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:ObjField"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:SimpleArrayField"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:SimpleField"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:parent"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ScreenOverlay">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:Icon"/>
+        <xs:element minOccurs="0" ref="kml:drawOrder"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:opacity"/>
+        <xs:element minOccurs="0" ref="kml:overlayXY"/>
+        <xs:element minOccurs="0" ref="kml:rotation"/>
+        <xs:element minOccurs="0" ref="kml:rotationXY"/>
+        <xs:element minOccurs="0" ref="kml:screenXY"/>
+        <xs:element minOccurs="0" ref="kml:size"/>
+        <xs:element minOccurs="0" ref="kml:texMat"/>
+        <xs:element minOccurs="0" ref="kml:visibility"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="screenXY">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="x" use="required"/>
+      <xs:attribute name="y" use="required"/>
+      <xs:attribute name="xunits" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="pixels"/>
+            <xs:enumeration value="insetPixels"/>
+            <xs:enumeration value="fraction"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="yunits" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="pixels"/>
+            <xs:enumeration value="insetPixels"/>
+            <xs:enumeration value="fraction"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Search">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:description"/>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:queryString"/>
+        <xs:element minOccurs="0" ref="kml:searchString"/>
+        <xs:element minOccurs="0" ref="kml:serverUrl"/>
+        <xs:element minOccurs="0" ref="kml:Snippet"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="searchString">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="serverUrl">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="showState">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SimpleArrayField">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:type"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SimpleField">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:name"/>
+        <xs:element minOccurs="0" ref="kml:type"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="size">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="x" use="required"/>
+      <xs:attribute name="y" use="required"/>
+      <xs:attribute name="xunits" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="pixels"/>
+            <xs:enumeration value="insetPixels"/>
+            <xs:enumeration value="fraction"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="yunits" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="pixels"/>
+            <xs:enumeration value="insetPixels"/>
+            <xs:enumeration value="fraction"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Snippet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:text"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="maxLines"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="south">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="State">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:duration"/>
+        <xs:element maxOccurs="unbounded" ref="kml:key"/>
+        <xs:element maxOccurs="unbounded" ref="kml:styleUrl"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Style">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:BalloonStyle"/>
+        <xs:element minOccurs="0" ref="kml:ColorStyle"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:Icon"/>
+        <xs:element minOccurs="0" ref="kml:IconStyle"/>
+        <xs:element minOccurs="0" ref="kml:LabelStyle"/>
+        <xs:element minOccurs="0" ref="kml:LineStyle"/>
+        <xs:element minOccurs="0" ref="kml:PolyStyle"/>
+        <xs:element minOccurs="0" ref="kml:geomScale"/>
+        <xs:element minOccurs="0" ref="kml:geomColor"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StyleBlinker">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="kml:State"/>
+        <xs:element minOccurs="0" ref="kml:numCycles"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StyleMap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:Pair"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="styleUrl">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tessellate">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="texMat">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Theme">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemePalette">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tilt">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Time">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeInstant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:timePosition"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimePeriod">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="kml:begin"/>
+        <xs:element minOccurs="0" ref="kml:end"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timePosition">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="type">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Url">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="kml:href"/>
+        <xs:element minOccurs="0" ref="kml:refreshInterval"/>
+        <xs:element minOccurs="0" ref="kml:refreshMode"/>
+        <xs:element minOccurs="0" ref="kml:viewFormat"/>
+        <xs:element minOccurs="0" ref="kml:viewRefreshMode"/>
+        <xs:element minOccurs="0" ref="kml:viewRefreshTime"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="View">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="viewBoundScale">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="viewFormat">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="viewRefreshMode">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="viewRefreshTime">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="visibility">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="w">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="west">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="width">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="x">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="y">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

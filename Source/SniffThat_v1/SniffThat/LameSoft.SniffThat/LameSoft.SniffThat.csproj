@@ -1,0 +1,189 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{419EFDDA-2612-4EB2-9AB1-59DFFE806FC7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LameSoft.SniffThat</RootNamespace>
+    <AssemblyName>SniffThat</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>4118C335-430C-497f-BE48-11C3316B135E</PlatformID>
+    <OSVersion>5.01</OSVersion>
+    <DeployDirSuffix>Mobile_WLan_Sniffer</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>SniffThat.ico</ApplicationIcon>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="OpenNETCF, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Net, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LameSoft.Mobile\Source\SDF 2.0\OpenNETCF.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataGrid" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExport.Designer.cs">
+      <DependentUpon>FormExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWLanSniffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWLanSniffer.Designer.cs">
+      <DependentUpon>FormWLanSniffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <DependentUpon>SniffThat.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormExport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWLanSniffer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormWLanSniffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SniffThat.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SniffThat.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Lamesoft.Mobile\LameSoft.Mobile.Gps\LameSoft.Mobile.Gps.csproj">
+      <Project>{86518116-4BE1-4971-8C9A-2FBA8C39A012}</Project>
+      <Name>LameSoft.Mobile.Gps</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LameSoft.Mobile\LameSoft.Mobile.Utils\LameSoft.Mobile.Utils.csproj">
+      <Project>{B07C3B06-FE75-46A9-9B16-8FE1F32BD8C6}</Project>
+      <Name>LameSoft.Mobile.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LameSoft.Mobile\LameSoft.Mobile.WirelessLan\LameSoft.Mobile.WirelessLan.csproj">
+      <Project>{0FB3F567-33A1-4638-9A64-EDE7A0CE85BE}</Project>
+      <Name>LameSoft.Mobile.WirelessLan</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LameSoft.SniffThat.Common\LameSoft.SniffThat.Common.csproj">
+      <Project>{3A42EEA3-DBF2-47C1-A04C-6C7BCF645E2F}</Project>
+      <Name>LameSoft.SniffThat.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LameSoft.SniffThat.Core\LameSoft.SniffThat.Core.csproj">
+      <Project>{BAC4D88F-4144-452B-A741-57B95D4614D4}</Project>
+      <Name>LameSoft.SniffThat.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.GpsInfoVisualModule\LameSoft.SniffThat.GpsInfoVisualModule.csproj">
+      <Project>{2EA8D0ED-8DBC-402C-B2A7-29DE3AC1D072}</Project>
+      <Name>LameSoft.SniffThat.GpsInfoVisualModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.GpsVisualModule\LameSoft.SniffThat.GpsVisualModule.csproj">
+      <Project>{E72FBFDD-37D8-4031-B161-44E793DBA268}</Project>
+      <Name>LameSoft.SniffThat.GpsVisualModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.KmlExportModule\LameSoft.SniffThat.KmlExportModule.csproj">
+      <Project>{7C7A6456-72F6-4EDA-A384-5E8559A1AF3D}</Project>
+      <Name>LameSoft.SniffThat.KmlExportModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.ListVisualModule\LameSoft.SniffThat.ListVisualModule.csproj">
+      <Project>{7AB5B675-2910-4C80-ACE5-1373F00D09BD}</Project>
+      <Name>LameSoft.SniffThat.ListVisualModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.OV2ExportModule\LameSoft.SniffThat.OV2ExportModule.csproj">
+      <Project>{83B29E39-D938-444C-BE71-07497BFCD5C4}</Project>
+      <Name>LameSoft.SniffThat.OV2ExportModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.RadarVisualModule\LameSoft.SniffThat.RadarVisualModule.csproj">
+      <Project>{1704FE3B-5ED6-4B10-8245-02076AD3F22E}</Project>
+      <Name>LameSoft.SniffThat.RadarVisualModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.WLanGraphVisualPlugin\LameSoft.SniffThat.WLanGraphVisualPlugin.csproj">
+      <Project>{7B8AD582-9717-4CA7-8C08-5E0A966BFAE5}</Project>
+      <Name>LameSoft.SniffThat.WLanGraphVisualPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\LameSoft.SniffThat.XMLExportModule\LameSoft.SniffThat.XMLExportModule.csproj">
+      <Project>{15948D57-3833-4A01-85DE-DB5106155C80}</Project>
+      <Name>LameSoft.SniffThat.XMLExportModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SniffThat.ico" />
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
