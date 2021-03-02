@@ -14,7 +14,7 @@ SniffThat allows to scan for wireless access points and combine this information
 It is plugin based and therefore supports custom plugins to do whatever the plugin likes to do with the access point and / or Gps Information.
 
 
-[Screenshots](Screenshots)
+[Screenshots](Screenshots.md)
 
 
 ## Releases
